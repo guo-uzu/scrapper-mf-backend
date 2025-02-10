@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-abs46!(2#sxrg6)yu^s4o0n6$15*u8&=0-7pape+99yfr=)*xm"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://scrapper-mike-flores.onrender.com/"]
 
 
 # Application definition
@@ -104,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-CORS_ALLOW_ORIGINS = ["https://scrapper-mike-flores.onrender.com/"]
+CORS_ALLOW_ORIGINS = []
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
